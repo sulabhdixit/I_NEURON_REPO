@@ -17,8 +17,8 @@ class MiniBank {
 	public static int Bank() {
 
 		try {
-			int amount = 70000;
-			System.out.println("***Welcome to INEURON Bank***\n");
+			int amount = 90000;
+			System.out.println("*** Welcome to INEURON Bank ***\n");
 			Scanner sc = new Scanner(System.in);
 			Verification v = new Verification();
 			v.verifyUser();

@@ -7,8 +7,8 @@ public class Verification {
 	public static boolean flag = false;
 	Scanner scan = new Scanner(System.in);
 
-	public final String UserId = "Tiwari";
-	public String UserPassword = "Pass123";
+	public final String UserId = "Sulabh";
+	public String UserPassword = "Password";
 
 	public void verifyUser() {
 		System.out.println("For more security you can change your Password, Type :: [Yes/No]");
@@ -23,7 +23,7 @@ public class Verification {
 			String upass = scan.next();
 
 			if (UserId.equals(uid) && UserPassword.equals(upass)) {
-				System.out.println("THANKS FOR YOUR VARIFICATON ");
+				System.out.println("THANKS FOR YOUR VERIFICATON ");
 				System.out.println("********************************");
 				flag = true;
 
